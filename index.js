@@ -18,8 +18,7 @@ document.addEventListener("keydown", function(event) {
 });
 
 function playSound(key) {
-  switch (key)
-  {
+  switch (key) {
     case "w":
       var tom1 = new Audio('sounds/tom-1.mp3');
       tom1.play();
@@ -48,7 +47,16 @@ function playSound(key) {
       var snare = new Audio('sounds/snare.mp3');
       snare.play();
       break;
-    default: console.log(buttonInnerHtml);
+    case "i":
+      var hihat1 = new Audio('sounds/hi-hat1.mp3');
+      hihat1.play();
+      break;
+    case "o":
+      var hihat2 = new Audio('sounds/hi-hat2.mp3');
+      hihat2.play();
+      break;
+    default:
+      console.log(buttonInnerHtml);
   }
 }
 

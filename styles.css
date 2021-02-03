@@ -44,6 +44,16 @@ footer {
   background-image: url("images/snare.png");
 }
 
+.i {
+  background-image: url("images/hi-hat1.png");
+
+}
+
+.o {
+  background-image: url("images/hi-hat2.png");
+
+}
+
 .set {
   margin: 10% auto;
 }
