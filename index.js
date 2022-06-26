@@ -20,39 +20,39 @@ document.addEventListener("keydown", function(event) {
 function playSound(key) {
   switch (key) {
     case "w":
-      var tom1 = new Audio('sounds/dark_deep_roar_01.mp3');
+      var tom1 = new Audio('sounds/ghost_horror_whispers.mp3');
       tom1.play();
       break;
     case "a":
-      var tom2 = new Audio('sounds/dark_summoning_01.mp3');
+      var tom2 = new Audio('sounds/ghostly_breath.mp3');
       tom2.play();
       break;
     case "s":
-      var tom3 = new Audio('sounds/mainframe_01.mp3');
+      var tom3 = new Audio('sounds/ghostly_presence.mp3');
       tom3.play();
       break;
     case "d":
-      var tom4 = new Audio('sounds/monster_screeching_01.mp3');
+      var tom4 = new Audio('sounds/ghostly_whisper_short.mp3');
       tom4.play();
       break;
     case "j":
-      var crash = new Audio('sounds/dark_chanting_01.mp3');
+      var crash = new Audio('sounds/horror_tension_short.mp3');
       crash.play();
       break;
     case "k":
-      var bass = new Audio('dark_distant_hole_01.mp3');
+      var bass = new Audio('sounds/red_dragon_void.mp3');
       bass.play();
       break;
     case "l":
-      var snare = new Audio('sounds/dark_transitional_screeching_01.mp3');
+      var snare = new Audio('sounds/spooky_ambient_170sec.mp3');
       snare.play();
       break;
     case "i":
-      var hihat1 = new Audio('sounds/monster_dark_aggressiv_roar_01.mp3');
+      var hihat1 = new Audio('sounds/treeman_haul_roar_deep.mp3');
       hihat1.play();
       break;
     case "o":
-      var hihat2 = new Audio('sounds/monster_dark_roar_01.mp3');
+      var hihat2 = new Audio('sounds/treeman_roar_2.mp3');
       hihat2.play();
       break;
     default: console.log(buttonInnerHtml);
